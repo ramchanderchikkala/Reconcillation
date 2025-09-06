@@ -23,13 +23,13 @@ It compares a **source file** and a **target file**, then produces detailed repo
 ---
 
 ## Options:
-   -s   Source file (required)
-   -t   Target file (required)
-   -k   Key columns (comma-separated). Header names if -H 1, or 1-based indexes if -H 0.
-   -d   Delimiter. Default ",". For TAB, use $'\t'
-   -H   Header present? 1=yes (default), 0=no
-   -T   Numeric tolerance (default 0.0). OPTIONAL; omit if you don’t need it.
-   -p   Report file prefix (default "reconcile"). OPTIONAL; omit to use default.
+-   -s   Source file (required)
+-   -t   Target file (required)
+-   -k   Key columns (comma-separated). Header names if -H 1, or 1-based indexes if -H 0.
+-   -d   Delimiter. Default ",". For TAB, use $'\t'
+-   -H   Header present? 1=yes (default), 0=no
+-   -T   Numeric tolerance (default 0.0). OPTIONAL; omit if you don’t need it.
+-   -p   Report file prefix (default "reconcile"). OPTIONAL; omit to use default.
 
 ## Requirements
 
