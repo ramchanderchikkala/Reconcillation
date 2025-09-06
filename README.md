@@ -1,4 +1,4 @@
-# Reconcile Script
+# Reconcillation Script
 
 A Bash script to reconcile two delimited files (CSV/TSV/pipe).  
 It compares a **source file** and a **target file**, then produces detailed reports on:
